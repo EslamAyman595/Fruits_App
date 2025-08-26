@@ -1,0 +1,1 @@
+const kHorzontalPadding = 16.0;
