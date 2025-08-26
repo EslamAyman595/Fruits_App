@@ -56,7 +56,7 @@ class OnBoardingPageView extends StatelessWidget {
           assetName: Assets.imagesOnboarding2,
           backgroundImage: Assets.imagesPageView2Backgroundimage,
           title:
-              const Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+               Row(mainAxisAlignment: MainAxisAlignment.center, children: [
             Text(
               'ابحث وتسوق',
               style: Styles.textStyle23,

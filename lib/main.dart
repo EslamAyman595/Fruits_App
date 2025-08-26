@@ -1,10 +1,13 @@
 import 'package:app_fruit/core/helper_functions/on_generate_route.dart';
+import 'package:app_fruit/core/services/shared_preferences_singleton.dart';
 import 'package:app_fruit/features/splash/presenttion/views/splash_view.dart';
 import 'package:app_fruit/generated/l10n.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
-void main() {
+void main() async{
+  WidgetsFlutterBinding.ensureInitialized();
+await  SharedPreferencesSingleton.init();
   runApp(const AppFruit());
 }
 
