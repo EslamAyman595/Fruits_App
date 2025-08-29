@@ -22,6 +22,7 @@ abstract class Styles {
 
   static const textStyle16 = TextStyle(
     fontSize: 16,
+    fontFamily: 'Cairo',
     fontWeight: FontWeight.w600,
      color: Color(0xFFFFFFFF),
   );
@@ -36,6 +37,12 @@ abstract class Styles {
     fontSize: 13,
     fontWeight: FontWeight.w600,
     color: Color(0xFF4E5556),
+  );
+    static const textStyle19 = TextStyle(
+    fontSize: 19,
+      fontFamily: 'Cairo',
+    fontWeight: FontWeight.w700,
+    color: Color(0xFF0C0D0D),
   );
 }
 
